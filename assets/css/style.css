@@ -74,7 +74,7 @@ body{
   .sec-header{
     overflow-x: hidden;
     overflow-y: hidden;
-    margin-top:30px
+    margin-top:15px
   }
   .header-search {
     padding: 15px 0px;
@@ -807,7 +807,7 @@ color:#000;
   font-size: 22px;
 }
 .carousel-item img{
-  height: 28rem;
+  height: 32rem;
   background-size: cover;
   width: 100%;
   opacity: .8;
@@ -819,19 +819,57 @@ color:#000;
 }
 .carousel-item h5{
   text-align: left;
-  margin-top:-200px;
-  font-size: 45px;
+  margin-top:-250px;
+  font-size: 22px;
+}
+.carousel-item h2{
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
 }
 .carousel-item p{
   text-align: left;
+  font-size: 14px;
 }
 .carousel-indicators {
+  
   position: absolute;
-  right: 0;
+  right: 20px;
   bottom: 10px;
-  left: 5px;
+  left: 0;
+
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: right;
+  justify-content: right; 
+ padding-left: 0; 
+
+  list-style: none;
+  direction: rtl;
+}
+a.btn-slider{
+  float: left;
+  background: #e33b3a;
+  color:#ffff;
+  font-size: 17px;
+  border: 0px;
+  outline: 0px;
+
+}
+a.btn-slider:hover{
+  color:#000;
+  border: 0px;
+  outline: 0px;
+
 }
 
+.carousel-indicators li {
+  height: 15px;
+  width:15px;
+  border-radius: 50%;
+  background: #e33b3a;
+  color:#e33b3a;
+}
 
 
 
