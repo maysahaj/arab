@@ -177,14 +177,28 @@ body{
 
 /*/**/
 .our-cards{
-    text-align: center;
-    color:#000;
+  text-align: center;
+  color:#000;
 }
+.our-cards2{
+  text-align: center;
+  color:#000;
+  background: #fff;
+  border-radius: 50%/52px 52px 0px 0px;
+  margin-top: -50px;
+ 
+  width:100%;
+  padding-top: 70px;
+position: relative;
+
+  
+
+}
+
 .our-cards h2{
     text-align: center;
     font-weight: bold;
     font-size: 35px;
-    margin-top:30px;
     text-transform: uppercase;
 }
 .our-cards .red{
@@ -197,7 +211,7 @@ body{
     padding-top:20px;
 }
 .card-sale{
-    margin-top: 60px;
+    margin-top: 80px;
     background-color: #ebebeb;
 }
 .card-sale .row{
@@ -351,6 +365,7 @@ border: 1px solid #e5e2e2;
    width:100%;
    background: #ebebeb;
    overflow-x: hidden;
+   margin-top:50px;
 
 }
 .contact h2{
@@ -529,30 +544,30 @@ border: 1px solid #e5e2e2;
   font-size: 30px;
   outline: 0px;
   border:0px;
+  margin-top: -310px;
+  justify-content: flex-start;
  }
  .owl-carousel .owl-nav button.owl-next{
-  
- background: #D10024;
- color:#fff;
+
+ color:#000;
  width:25px;
  height:25px;
  border-radius: 50%;
- 
  outline: none;
  border:0px;
- font-size: 30px;
+ font-size: 40px;
  line-height: 8px;
 }
 
 .owl-carousel .owl-nav button.owl-prev{
 
 
-  background: #D10024;
- color:#fff;
+
+ color:#000;
  width:25px;
  height:25px;
  border-radius: 50%;
- font-size: 30px;
+ font-size: 40px;
  line-height: 8px;
 
   outline: none;
@@ -561,8 +576,8 @@ border: 1px solid #e5e2e2;
 .owl-carousel .owl-nav button.owl-next:hover,.owl-carousel .owl-nav button.owl-prev:hover{
 outline: none;
 border:0px;
-background: #D10024;
-color:#000;
+background: #fff;
+color:#e33b3a;
 
 }
 /**/
@@ -811,6 +826,8 @@ color:#000;
   background-size: cover;
   width: 100%;
   opacity: .8;
+  
+
 }
 .carousel-item .overlay{
   background-color: rgba(14, 13, 13, 0.75);
@@ -870,7 +887,11 @@ a.btn-slider:hover{
   background: #e33b3a;
   color:#e33b3a;
 }
-
+.carousel-indicators {
+  position: absolute;
+ 
+  top: 25rem;
+}
 
 
 
