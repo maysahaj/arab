@@ -892,8 +892,33 @@ a.btn-slider:hover{
  
   top: 25rem;
 }
+.our-cards2 .owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+display: block;
+outline: 0px;
+  border: 0px;
 
+  
+}
 
+.owl-theme .owl-dots .owl-dot span {
+  width: 13px;
+  height: 13px;
+  background:#aeb5bb;
+ 
+  outline: 0px;
+  border:0px;
+
+}
+.owl-theme .owl-dots .owl-dot span:hover{
+  border: none;
+  background:#5cbb5c;
+  outline: none;
+  outline: 0px;
+  border:0px;
+
+}
 
 
 
