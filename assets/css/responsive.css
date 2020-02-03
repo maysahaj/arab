@@ -1,0 +1,19 @@
+@media (width:1024px) {
+    .best-sales .cards-buy a {
+     
+        padding: 10px 3px;
+    }
+}
+
+@media (max-width:728px) {
+    .header-logo {
+        margin: 0 auto;
+    }
+    .header-logo .logo img {
+        display: block;
+        width: 100px;
+        margin-bottom: 15px;
+        margin: 0 auto;
+ 
+    }
+}

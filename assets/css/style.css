@@ -58,9 +58,7 @@ body{
 .dropdown-toggle::after {
     display:none;
 }
-.header-logo {
-    float: left;
-  }
+
   
   .header-logo .logo img {
     display: block;
@@ -259,6 +257,10 @@ padding: 10px 30px;
 .best-sales p{
  padding-top:20px;
  text-align: center;
+}
+.best-sales .card img{
+  width:100%;
+  height: 300px;
 }
 
 .best-sales .desc a{
@@ -544,7 +546,7 @@ border: 1px solid #e5e2e2;
   font-size: 30px;
   outline: 0px;
   border:0px;
-  margin-top: -310px;
+  margin-top: -330px;
   justify-content: flex-start;
  }
  .owl-carousel .owl-nav button.owl-next{
@@ -898,14 +900,15 @@ a.btn-slider:hover{
 display: block;
 outline: 0px;
   border: 0px;
+  margin-top: 15px;
 
   
 }
 
 .owl-theme .owl-dots .owl-dot span {
-  width: 13px;
-  height: 13px;
-  background:#aeb5bb;
+  width: 17px;
+  height: 17px;
+  background:#e33b3a;
  
   outline: 0px;
   border:0px;
@@ -913,12 +916,105 @@ outline: 0px;
 }
 .owl-theme .owl-dots .owl-dot span:hover{
   border: none;
-  background:#5cbb5c;
+  background:#D10024;
   outline: none;
   outline: 0px;
   border:0px;
+  box-shadow: 0px;
 
 }
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  background: 0 0;
+  color: inherit;
+  border: none;
+  padding: 0!important;
+  font: inherit;
+  border: 0px;
+  outline: 0px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #D10024;
+}
 
+ 
+ .our-cards2  .desc a{
+   font-weight: bold;
+   color:#000;
+   font-size: 16px;
+ }
+ .our-cards2 .desc a:hover{
+   color:#e33b3a;
+   text-decoration: none;
+ }
+ .our-cards2 .desc span{
+   color:#e33b3a;
+ }
+ .our-cards2  .product-wid-rating i{
+   color:#999;
+   font-size: 14px;
+ }
+ .our-cards2 .product-wid-rating i.active{
+   color:#e33b3a;
+ }
+ .our-cards2 .card-link{
+   background: #e33b3a;
+   color:#fff;
+   padding: 6px 6px;
+ 
+ 
+ }
+ 
+ .our-cards2 .cards-buy a{
+  
+   color:#fff;
+   padding: 8px 14px;
+   font-weight: 500;
+   border-radius: 6px;
+   font-size: 15px;
+   color:#000;
+ border: 1px solid #e5e2e2;
+ 
+  
+ }
+ .our-cards2 .cards-buy a:hover{
+  text-decoration: none;
+  background: #e33b3a;;
+  color:#fff;
+ }
 
+.our-cards2 .owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+.our-cards2  .owl-theme .owl-nav {
+  display: none;}
+  /*
+  about page*/
+   .about-page {
+     background: #ebebeb;
+     padding-top: 40px;
+   }
+   .about-page .card{
+     padding:30px;
+    background: #ebebeb;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.11);
+
+  }
+
+  .about-page h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.about-page .red{
+    border-bottom: 7px solid #e33b3a;
+
+}
+.about-page p{
+    text-align: center;
+    color:#000;
+    padding-top:20px;
+}
 
