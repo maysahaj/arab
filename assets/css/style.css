@@ -2,7 +2,15 @@
 body{
     direction: ltr;
     color:#000;
+    font-family: 'SF-UI-Display-Regular';
 
+}
+@font-face {
+	font-family: 'SF-UI-Display-Regular';
+	src: url('../fonts/SF-UI-Display-Regular.otf');
+	src: local('☺'),  url('../fonts/SF-UI-Display-Regular.otf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 .header-area {
     background: none repeat scroll 0 0 #e33b3a;
@@ -992,15 +1000,23 @@ outline: 0px;
   /*
   about page*/
    .about-page {
-     background: #ebebeb;
+     background: linear-gradient(to bottom,#ebebeb,#ebebeb,#fff,#fff);
      padding-top: 40px;
+     margin-bottom: 80px;
    }
    .about-page .card{
-     padding:30px;
+ 
     background: #ebebeb;
     box-shadow: 0 0 32px rgba(0, 0, 0, 0.11);
+    text-align: center;
+    border:none;
+    padding-top:40px;
+
+
+  
 
   }
+  
 
   .about-page h2{
     text-align: center;
@@ -1015,6 +1031,42 @@ outline: 0px;
 .about-page p{
     text-align: center;
     color:#000;
-    padding-top:20px;
+    padding-top:50px;
+    padding-bottom:100px;
+}
+
+.about-page .card-logo img{
+    margin: 0 auto;
+    display: flex;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px 30px;
+    margin-top: 30px;
+    border-radius: 40px;
+    border: 1px solid #d1cece;
+    margin-top:-80px;
+}
+.about-page .desc-about{
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0 0 32px rgba(0, 0, 0, 0.11);
+}
+.about-page .desc-about h2{
+
+  font-size: 22px;
+  margin-top: 30px;
+
+}
+.about-page .desc-about span{
+
+  font-size: 16px;
+  color:#817f7f;
+
+}
+.about-page .desc-about p{
+  color: #2a2a2a;
+  font-size: 16px;
+  text-align: left;
+  padding: 40px;
 }
 
