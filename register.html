@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title> Arab-card/About</title>
+	<title> Arab-card/Register-Now</title>
 	<meta charset="utf-8">
 	
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
@@ -137,24 +137,133 @@
     </section>
 </header>
 <main>
-    <section class = "about-page about">
+    <section class = "Register-sign">
 		<div class="container">
             <div class="card">
-                <h2>
-                    A<span class="red">b</span>out
-                   </h2>
-                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, suscipit alias repellat unde dolore perferendis magnam rerum cupiditate libero laudantium obcaecati rem iusto! Laborum officia, impedit repudiandae totam voluptatum praesentium.</p>
-            
-                   <div class="desc-about">
-                    <div class="card-logo">
-                        <img src="assets/img/logo.png" alt="">
+                <ul class="nav row  justify-content-center nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item col">
+                      <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Sign In</a>
+                    </li>
+                    <li class="nav-item col">
+                      <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Register Now</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <h2>LOGIN NOW</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod vel facilisis. </p>
+                            <form class="mt-2 sign-in">
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                                </div>
+                                <div class="form-group">
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="col-md-6 ">
+                                    <div class="clearfix">
+                                        <div class="float-left">
+                                            <label class="arab-ch">Remeber Me
+                                                <input type="checkbox">
+                                                <span class="checkmark"></span>
+                                              </label>
+                                        </div>
+                                       
+                                          <div class="float-right">
+                                            <a href="">Forger your password?</a>
+                                          </div>
+                                      
+
+                                    </div>
+                                  
+                                      
+                                  </div>
+                               
+                                <div class="">
+                                 
+                                    <button type="submit" class="btn btn-cancel  mt-3 mb-3 submit">Login </button>
+                                     <br>
+                                     <span><strong>Or</strong></span>
+                                     <br>
+                                     <span>Sign in with</span>
+                                     <div class=" mt-3">
+                                        <a  href="#" aria-label="facebook">
+                                          <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#" aria-label="google-plus">
+                                          <i class="fab fa-google-plus-g"></i>
+                                        </a>
+                                        <a href="#" aria-label="google-plus">
+                                          <i class="fab fa-twitter"></i>
+                                        </a>
+                                      </div>
+                                </div>
+                             
+                              </form>
                     </div>
-                    <h2>Arab Card Co.</h2>
-                    <span>MELROSE PARK 1259  Duff Avenue</span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo   commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p>
-                </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <h2>Register Now</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod vel facilisis. </p>
+                        <form class="mt-4">
+                            <div class="form-row">
+                                <div class="col">
+                                  <input type="text" placeholder="full name">
+                                </div>
+                                <div class="col">
+                                  <input type="text"  placeholder="address">
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col-md-6">
+                                  <input type="email" placeholder="Email Address">
+                                </div>
+                                <div class="col-md-6 pl-5 text-left">
+                                    <div class="row">
+                                        <label class="arab-ch col">Dealer
+                                            <input type="checkbox">
+                                            <span class="checkmark"></span>
+                                          </label>
+                                          <label class="arab-ch col">Agree to terms
+                                            <input type="checkbox" >
+                                            <span class="checkmark"></span>
+                                          </label>
+
+                                    </div>
+                                  
+                                      
+                                  </div>
+                          
+                              </div>
+                              <div class="form-row">
+                                <div class="col-md-6">
+                                  <input type="text" placeholder="phone">
+                                </div>
+                              
+                              </div>
+                              <div class="form-row">
+                                <div class="col-md-6">
+                                  <input type="password" placeholder="Password">
+                                </div>
+                              </div>
+                              <div class="form-row">
+                                <div class="col-md-6">
+                                    <input type="password" placeholder="Confirm Password">
+                                  </div>
+                              </div>
+                              <button type="submit" class="btn send btn-success mt-3 mb-5">Confirm</button>
+
+                            <button type="submit" class="btn send btn-cancel mt-3 mb-5">Cancel</button>
+                        </form>
+                    </div>
+                  </div>
+               
+      
+               
+               
            
             </div>
+           
         
         </div>
     </section>
@@ -437,18 +546,13 @@
             </div>
         </div>
 </section>
-
 </footer>
-     
 
-
-	<script src="assets/js/jquery3.3.1.js"></script>
-	<script src="assets/js/popper.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
-	<script src="assets/js/main.js"></script>
+<script src="assets/js/jquery3.3.1.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/owl.carousel.min.js"></script>
+<script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
-	
