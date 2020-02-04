@@ -1355,3 +1355,31 @@ color: #4a6ab2;
   border: 0px;
 }
 
+.modal-header .modal-title{
+   margin: 0 auto;
+}
+.modal-body .row .btn-secondary{
+  background: #fff;
+  color:#000;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.23);
+  padding:10px 15px;
+  border:0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  
+
+}
+.modal-body .row .btn-secondary:hover{
+  color:#e33b3a;
+
+}
+.modal-footer .btn-success:hover{
+  color:#fff;
+  background: #28a745;
+  outline: 0px;
+
+}
+.modal-footer{
+  margin:0 auto;
+  border-top:0px;
+}
