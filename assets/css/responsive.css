@@ -3,9 +3,21 @@
      
         padding: 10px 3px;
     }
+    .Register-sign .nav-pills .nav-link {
+        font-weight: 500;
+        font-size: 13px;
+    }}
+
+@media (max-width:768px) {
+    .Register-sign .nav-pills .nav-link {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
 }
 
-@media (max-width:728px) {
+
+@media (max-width:992px) {
     .header-logo {
         margin: 0 auto;
     }
@@ -16,4 +28,16 @@
         margin: 0 auto;
  
     }
+    .Register-sign .card {
+      
+        padding: 0px;
+
+    }
+    .Register-sign form input {
+        width: 100%;
+}
+.Register-sign .nav-pills .nav-link {
+    font-weight: 500;
+    font-size: 13px;
+}
 }

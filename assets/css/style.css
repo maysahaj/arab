@@ -1246,7 +1246,7 @@ outline: 0px;
 .Register-sign label {
   display: inline-block;
   margin-bottom: .5rem;
-  font-size: 18px;
+  font-size: 17px;
  
 }
 
@@ -1308,3 +1308,24 @@ button.btn:hover{
 margin: 0 auto;
 
 }
+.Register-sign .sign-in label{
+  font-size: 17px;
+}
+.sign-in button.btn{
+  padding:10px 30px;
+  font-size: 18px;
+}
+.sign-in .fa-facebook-f{
+color: #4a6ab2;
+}
+.sign-in .fa-google-plus-g{
+  color: #e33b3a;
+  }
+  .social a{
+    font-size: 20px;
+  padding-left: 20px;
+ 
+
+}
+
+
