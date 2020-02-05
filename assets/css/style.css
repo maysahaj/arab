@@ -1496,3 +1496,84 @@ text-align: center;
     color: #e33b3a;
     width: 3px;
     height: 7px;}
+
+    .vendors {
+      margin-top: 30px;
+    }
+   .vendors .row .card{
+      box-shadow: 0 0 32px rgba(0, 0, 0, 0.11);
+      border-radius: 10px;
+      background-color: #ffffff;
+      padding:15px;
+      text-align: center;
+    }
+    .vendors .row .card li a{
+      font-size: 16px;
+      color:#000;
+    }
+    .vendors .row .card li a:hover{
+      text-decoration: none;
+      color:#e33b3a;
+    }
+    .vendors .row .card li a.active{
+      color:#e33b3a;
+      text-decoration: none;
+    }
+    .vendors .card h5{
+      font-weight: bold;
+      font-size: 20px;
+      
+    }
+    .vendors .lastest h5{
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .vendors .row  .tab-pane .card img{  
+     width: 100%;
+    height: 300px;
+}
+.vendors  .desc a{
+  font-weight: bold;
+  color:#000;
+  font-size: 16px;
+}
+.vendors  .desc a:hover{
+  color:#e33b3a;
+  text-decoration: none;
+}
+.vendors  .desc span{
+  color:#e33b3a;
+}
+.vendors  .product-wid-rating i{
+  color:#999;
+  font-size: 14px;
+}
+.vendors .product-wid-rating i.active{
+  color:#e33b3a;
+}
+.vendors  .card-link{
+  background: #e33b3a;
+  color:#fff;
+  padding: 6px 6px;
+
+
+}
+
+.vendors .cards-buy a{
+ 
+  color:#fff;
+  padding: 8px 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  font-size: 15px;
+  color:#000;
+border: 1px solid #e5e2e2;
+
+ 
+}
+.vendors .cards-buy a:hover{
+ text-decoration: none;
+ background: #e33b3a;;
+ color:#fff;
+}
+/**/
