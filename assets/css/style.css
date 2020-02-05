@@ -1383,3 +1383,116 @@ color: #4a6ab2;
   margin:0 auto;
   border-top:0px;
 }
+.product{
+  text-align: center;
+  color: #000;
+  background: #fff;
+  border-radius: 50%/100% 100%100%;
+  margin-top:0px;
+  border: none;
+  border-radius: 0px;
+  width: 100%;
+  padding-top: 70px;
+  position: relative;
+}
+
+.product-car .owl-dots{
+
+display: block;
+
+
+  
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #fff;
+  border: 1px solid #e33b3a;
+}
+.product-car .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+display: block;
+outline: 0px;
+  border: 0px;
+  margin-top: 15px;
+
+  
+}
+
+.product-car .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  background:#e33b3a;
+ 
+  outline: 0px;
+  border:0px;
+
+}
+
+.product-car .owl-theme img{
+  width: 100%;
+}
+.product-page{
+  margin-top: 50px;
+}
+.product-page .row .col-md-9 img{
+  width: 100%;
+}
+.product-page .row .amount .btn{
+  background: #fff;
+  color: #000;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.23);
+  padding: 10px 15px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.product-page .row input{
+  background: #fff;
+  color: #000;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.23);
+text-align: center;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  width: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.product-page .row h2 a{
+  color:#000;
+}
+.product-page .row h2 a:hover{
+  text-decoration: none;
+}
+.product-page  img.product-thumb {
+  float: left;
+  height: 90px;
+  margin-right: 15px;
+  width: 100px;
+}
+.product-page .row h5{
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+}
+
+
+.product-page  .owl-theme .owl-nav {
+
+  position: absolute;
+
+  top: 17rem;
+  right: 5px;
+
+}
+.product-page .row .col-md-3 .owl-dots {
+ display: none;
+}
+.product-page .owl-carousel .owl-nav button.owl-prev {
+  color: #000;
+  width: 3px;
+  height: 7px;}
+  .product-page .owl-carousel .owl-nav button.owl-next{
+    color: #e33b3a;
+    width: 3px;
+    height: 7px;}

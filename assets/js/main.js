@@ -1,3 +1,21 @@
+$('.product-car ').owlCarousel({
+    ltr:true,
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+});
+
 $('.owl-carousel').owlCarousel({
     ltr:true,
     loop:true,
@@ -14,4 +32,5 @@ $('.owl-carousel').owlCarousel({
             items:4
         }
     }
-})
+});
+
