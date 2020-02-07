@@ -69,5 +69,20 @@
     text-align: left;
     padding: 27px;
 }
+.contact-page .card {
+   
+    padding: 20px;
+}
+.contact-page form input {
+    width: 100%;
+
+}
+.contact-page form textarea {
+    width: 100%;
+}
+.media span i {
+    color: #939292;
+    font-size: 25px;
+}
 
 }
