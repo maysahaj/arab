@@ -105,6 +105,10 @@
     display: flex;
    
 }
+.vendors .row .card li a {
+    font-size: 13px;
+    color: #000;
+}
 
 
 }
