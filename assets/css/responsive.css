@@ -40,4 +40,28 @@
     font-weight: 500;
     font-size: 13px;
 }
+
+ 
+.navbar-toggler {
+  font-size:20px;
+  color: #fff;
+  background-color: #e33b3a;
+}
+.navbar-nav {
+    display: flex;
+    margin:0 auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+}
+.navbar-toggler:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    border: 3px solid #fff;
+}
+.row1{
+    margin-top:15px;
+}
+
 }
