@@ -61,7 +61,13 @@
     border: 3px solid #fff;
 }
 .row1{
-    margin-top:15px;
+    margin-top:10px;
+}
+.about-page .desc-about p {
+    color: #2a2a2a;
+    font-size: 16px;
+    text-align: left;
+    padding: 27px;
 }
 
 }
