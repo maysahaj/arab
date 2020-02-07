@@ -5,16 +5,10 @@
     }
     .Register-sign .nav-pills .nav-link {
         font-weight: 500;
-        font-size: 13px;
+        font-size: 16px;
     }}
 
-@media (max-width:768px) {
-    .Register-sign .nav-pills .nav-link {
-        font-weight: 500;
-        font-size: 14px;
-    }
 
-}
 
 
 @media (max-width:992px) {
@@ -84,5 +78,33 @@
     color: #939292;
     font-size: 25px;
 }
+.product-page .row h5 {
+    margin-top: 30px;
+}
+.Register-sign .card form{
+    width: 90%;
+    margin: 0 auto;
+}
+.Register-sign .sign-in {
+    width: 83%;
+    margin: 0 auto;
+}
+.footer-social a {
+     padding-left: 5px; 
+}
+.footer-social {
+ 
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+   
+}
+.footer-social .nav{
+ 
+    margin: 0 auto;
+    display: flex;
+   
+}
+
 
 }
