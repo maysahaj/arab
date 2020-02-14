@@ -190,12 +190,13 @@ body{
   text-align: center;
   color:#000;
   background: #fff;
-  border-radius: 50%/52px 52px 0px 0px;
+
   margin-top: -50px;
  
   width:100%;
   padding-top: 70px;
 position: relative;
+clip-path: ellipse(100% 50% at 50% 50%);
 
   
 
@@ -1577,3 +1578,28 @@ border: 1px solid #e5e2e2;
  color:#fff;
 }
 /**/
+/*Scroll*/
+::-webkit-scrollbar {
+  width: 10px;
+
+  border-radius: 15px !important;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 15px !important;
+  
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+  background: #e33b3a; 
+  border-radius: 15px !important;
+  height: 150px;
+  
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+  background: #000; 
+  }
